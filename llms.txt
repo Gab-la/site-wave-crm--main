@@ -1,0 +1,23 @@
+# WAVE Digital
+
+> Agência de tecnologia em Campos dos Goytacazes (RJ): sites institucionais, landing pages, CRM próprio (Wave CRM), automações e integrações, sistemas sob medida e e-mail corporativo com segurança documentada. Fundador: Moisés Rangel.
+
+## Páginas
+- [Início](https://wavecrm.com.br/)
+- [Serviços](https://wavecrm.com.br/servicos/)
+- [Sites institucionais](https://wavecrm.com.br/servicos/sites/)
+- [Landing pages](https://wavecrm.com.br/servicos/landing-pages/)
+- [CRM sob medida](https://wavecrm.com.br/servicos/crm/)
+- [Automações e integrações](https://wavecrm.com.br/servicos/automacoes-e-integracoes/)
+- [Sistemas sob medida](https://wavecrm.com.br/servicos/sistemas-sob-medida/)
+- [E-mail corporativo e infraestrutura](https://wavecrm.com.br/servicos/email-e-infraestrutura/)
+- [Cases](https://wavecrm.com.br/cases/)
+- [Virtua Corretora](https://wavecrm.com.br/cases/virtua-corretora/)
+- [Nação Basquete de Rua](https://wavecrm.com.br/cases/nacao-basquete-de-rua/)
+- [Beco Skate Shop](https://wavecrm.com.br/cases/beco-skate-shop/)
+- [Sobre](https://wavecrm.com.br/sobre/)
+- [Contato](https://wavecrm.com.br/contato/)
+
+## Contato
+- WhatsApp: (41) 99116-4890
+- E-mail: moisesrangel@wavecrm.com.br
