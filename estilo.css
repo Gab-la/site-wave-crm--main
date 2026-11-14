@@ -42,40 +42,52 @@
   filter: brightness(0) invert(1);
 }
 
-#theme-dark.switch {
+.switch {
   position: relative;
-  width: 110px;
-  height: 36px;
+  width: 70px;
+  height: 28px;
   border-radius: 999px;
-  border: 1px solid var(--signal);
-  background: var(--papper);
+  border: 1px solid #c3c9d8;
+  background: #eef0f5;
   cursor: pointer;
   padding: 0;
   transition: background .3s;
 }
 
+
 .switch-bola {
   position: absolute;
   top: 3px;
   left: 3px;
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background: var(--navy);
-  color: #fff;
-  font: 700 8px/28px var(--fm);
-  text-align: center;
-  transition: transform .3s var(--ez);
+  background: #041466;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .3s cubic-bezier(.2, .7, .2, 1), background .3s;
 }
 
-.dark-theme #theme-dark.switch {
-  background: var(--deep);
+.switch-bola img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.dark-theme .switch {
+  background: #020a33;
+  border-color: #16254b;
 }
 
 .dark-theme .switch-bola {
-  transform: translateX(78px);
-  background: var(--papper);
-  color: var(--navy);
+  transform: translateX(44px);
+  background: #e8ebf7;
+}
+
+.dark-theme .switch-bola img {
+  filter: brightness(0);
 }
 
 *,
