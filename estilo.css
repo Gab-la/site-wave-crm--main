@@ -44,7 +44,7 @@
 
 .switch {
   position: relative;
-  width: 70px;
+  width: 72px;
   height: 28px;
   border-radius: 999px;
   border: 1px solid #c3c9d8;
@@ -70,10 +70,20 @@
 }
 
 .switch-bola img {
-  width: 14px;
-  height: 14px;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
+  width: 20px;
+  height: 20px;
+}
+
+.tema-lua {
+  display: none;
+}
+
+.dark-theme .tema-sol {
+  display: none;
+}
+
+.dark-theme .tema-lua {
+  display: block;
 }
 
 .dark-theme .switch {
@@ -86,9 +96,6 @@
   background: #e8ebf7;
 }
 
-.dark-theme .switch-bola img {
-  filter: brightness(0);
-}
 
 *,
 *::before,
