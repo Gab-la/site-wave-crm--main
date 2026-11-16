@@ -22,6 +22,7 @@
   --ez: cubic-bezier(.2, .7, .2, 1);
 }
 
+/* tema escuro, ativado com a classe .dark-theme no <html> */
 .dark-theme {
   --navy: #4979e0;
   --deep: #101e57;
@@ -38,13 +39,15 @@
   --on-deep2: #aab3d6;
 }
 
+/* invertendo a marca do cabeçalho no tema escuro */
 .dark-theme .cab .marca img {
   filter: brightness(0) invert(1);
 }
 
+/* botão de alternar tema */
 .switch {
   position: relative;
-  width: 72px;
+  width: 50px;
   height: 28px;
   border-radius: 999px;
   border: 1px solid #c3c9d8;
@@ -54,7 +57,7 @@
   transition: background .3s;
 }
 
-
+/* o botão de alternar tema é um switch com uma bolinha que se move */
 .switch-bola {
   position: absolute;
   top: 3px;
@@ -69,6 +72,7 @@
   transition: transform .3s cubic-bezier(.2, .7, .2, 1), background .3s;
 }
 
+/* ícones de sol e lua dentro da bolinha do switch, cor da bolinha nos temas*/
 .switch-bola img {
   width: 20px;
   height: 20px;
@@ -92,7 +96,7 @@
 }
 
 .dark-theme .switch-bola {
-  transform: translateX(44px);
+  transform: translateX(22px);
   background: #e8ebf7;
 }
 
@@ -1917,6 +1921,21 @@ html:not(.js) .zap-flut {
 
   .navcta {
     display: none
+  }
+
+  /* botão de tema do lado esquerdo dos 3 traços do menu*/
+  .cab-g {
+    gap: .8rem;
+  }
+
+  .switch {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .burg {
+    order: 3;
+    margin-left: 0;
   }
 
   /* menu fechado não recebe toque: antes a lista de serviços (.mega) ficava visível por cima da página, transparente, e roubava os toques */
